@@ -1,0 +1,31 @@
+{
+  "best_model": "MobileNetV2",
+  "img_size": 224,
+  "class_codes": [
+    "akiec",
+    "bcc",
+    "bkl",
+    "df",
+    "mel",
+    "nv",
+    "vasc"
+  ],
+  "class_names": [
+    "Actinic keratoses",
+    "Basal cell carcinoma",
+    "Benign keratosis",
+    "Dermatofibroma",
+    "Melanoma",
+    "Melanocytic nevi",
+    "Vascular lesions"
+  ],
+  "test_metrics": {
+    "Accuracy": 0.7141,
+    "Balanced Acc.": 0.6104,
+    "Macro Precision": 0.4926,
+    "Macro Recall": 0.6104,
+    "Macro F1": 0.5247,
+    "Weighted F1": 0.737,
+    "Macro ROC-AUC": 0.918
+  }
+}
